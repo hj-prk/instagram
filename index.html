@@ -2,12 +2,9 @@
     <head>
         <link href="style.css" rel="stylesheet">
         <link href="https://pro.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet"/>
+        <script src="script.js"></script>
     </head>
     <body>
-        <script>
-            console.log("test")
-            alert("오늘 기분은 어떠신가요?")
-        </script>
         <div id="top">
             <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"/>
             <input type="search" value="검색"/>
@@ -23,26 +20,25 @@
                 <img class="circle_pic" src="image/profile.png"/>
             </div>
             <div id="profile_info">
-                <div id="id">lord <i class="fas fa-cog"></i></div>
+                <div id="id">
+                    <span>lord</span>
+                    <i class="fas fa-cog"></i>
+                </div>
                 <button>프로필 편집</button>
             </div>
         </div>
 
         <div>
             <p>
-            <strong>
-                로드
-            </strong><br/>
-                아발론의 군주
+                <strong id="userInfo">로드(Lord)</strong><br/>
+                <span id="summary">군주</span>
+            </p>
+            <p id="profileDetail">
+                <a href="https://www.instagram.com/hz_prk/">
+                    https://www.instagram.com/hz_prk/
+                </a>
             </p>
         </div>
-        <div>
-        <p>
-            <a href="https://www.instagram.com/hz_prk/">
-                https://www.instagram.com/hz_prk/
-            </a>
-        </p>
-        
 
         <div id="highlight_area">   
             <div class="highlight">
